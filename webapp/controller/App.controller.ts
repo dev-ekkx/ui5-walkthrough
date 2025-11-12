@@ -1,3 +1,4 @@
+import MessageToast from "sap/m/MessageToast";
 import Controller from "sap/ui/core/mvc/Controller";
 
 /**
@@ -5,7 +6,9 @@ import Controller from "sap/ui/core/mvc/Controller";
  */
 export default class AppController extends Controller {
     onShowHello(): void {
-        // show a native JavaScript alert
-        alert("Hello World");
+        MessageToast.show("Hello World", {
+            at: "CenterTop",
+            offset: "0 52"
+        });
      }
 };
