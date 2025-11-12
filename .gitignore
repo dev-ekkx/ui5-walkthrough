@@ -1,0 +1,26 @@
+    # OData V2 UI5 Application
+#
+# Exclude the following folders from Git:
+#
+# 1. node_modules: Contains all the dependencies of the project.
+# 2. dist: Contains the built application (minified and bundled).
+# 3. .env: Contains environment variables.
+# 4. .vscode: Contains VSCode specific settings.
+# 5. .project.json: Contains project specific settings.
+# 6. .settings: Contains project specific settings.
+# 7. .classpath: Contains project specific settings.
+# 8. .factorypath: Contains project specific settings.
+# 9. .odata4j: Contains project specific settings.
+# 10. target: Contains the built application (minified and bundled).
+
+node_modules
+dist
+.env
+.vscode
+.idea
+.project.json
+.settings
+.classpath
+.factorypath
+.odata4j
+target
